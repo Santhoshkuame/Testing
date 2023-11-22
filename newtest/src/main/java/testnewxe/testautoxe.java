@@ -20,7 +20,7 @@ public class testautoxe {
         driver.get("https://dev.xml-edge.com/");
        driver.manage().window().maximize();
 	driver.findElement(By.id("inputEmail4MD")).sendKeys("santhoshkumar.ilangovan@edgaragents.in");
-	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@123");
+	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@1234");
 	    driver.findElement(By.xpath("//button[@type='submit']")).click();
 	    Thread.sleep(5000);
 		  driver.findElement(By.xpath("//div[@class='card-header']//*[text()='EAsyView']")).click();
@@ -33,12 +33,12 @@ public class testautoxe {
 		  Thread.sleep(5000);
 		  driver.findElement(By.xpath("//div[@class='popup-controls']")).click();
 		  Thread.sleep(2000);
-		  driver.findElement(By.xpath("//input[@formcontrolname='title']")).sendKeys("Test automation-35566");
+		  driver.findElement(By.xpath("//input[@formcontrolname='title']")).sendKeys("Test automation-3556667");
 		  driver.findElement(By.xpath("//*[@formcontrolname='formType']")).click();
 		  driver.findElement(By.xpath("//input[@placeholder='Search form type']")).sendKeys("10-Q");
 		  driver.findElement(By.xpath("//span[@class=\"mdb-option-text {'active', active}\"][normalize-space()='10-Q']")).click();
 		  Thread.sleep(2000);
-		  driver.findElement(By.xpath("//input[@id='mdb-datepicker-1']")).sendKeys("2023-06-23");
+		  driver.findElement(By.xpath("//input[@id='mdb-datepicker-1']")).sendKeys("2023-06-25");
 		  Thread.sleep(2000);
         
         WebElement file = driver.findElement(By.xpath("//input[@formcontrolname='xbrlFile']"));
@@ -55,7 +55,7 @@ public class testautoxe {
         driver.get("https://dev.xml-edge.com/");
        driver.manage().window().maximize();
 	driver.findElement(By.id("inputEmail4MD")).sendKeys("santhoshkumar.ilangovan@edgaragents.in");
-	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@123");
+	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@1234");
 	    driver.findElement(By.xpath("//button[@type='submit']")).click();
 	 }
 	@Test
@@ -65,7 +65,7 @@ public class testautoxe {
          driver.get("https://dev.xml-edge.com/");
         driver.manage().window().maximize();
 	driver.findElement(By.id("inputEmail4MD")).sendKeys("santhoshkumar.ilangovan@edgaragents.in");
-	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@123");
+	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@1234");
 	    driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 	@Test
@@ -75,7 +75,7 @@ public class testautoxe {
          driver.get("https://dev.xml-edge.com/");
         driver.manage().window().maximize();
 	driver.findElement(By.id("inputEmail4MD")).sendKeys("santhoshkumar.ilangovan@edgaragents.in");
-	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@123");
+	     driver.findElement(By.id("inputPassword4MD")).sendKeys("Test@1234");
 	    driver.findElement(By.xpath("//button[@type='submit']")).click();
 }
 
