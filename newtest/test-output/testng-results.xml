@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-22T12:15:47 IST" name="Default suite" finished-at="2023-11-22T12:16:02 IST" duration-ms="14436">
+    <groups>
+    </groups>
+    <test started-at="2023-11-22T12:15:47 IST" name="Default test" finished-at="2023-11-22T12:16:02 IST" duration-ms="14436">
+      <class name="testnewxe.testautoxe2">
+        <test-method signature="sampledemo()[pri:0, instance:testnewxe.testautoxe2@78d50a3c]" started-at="2023-11-22T12:15:47 IST" name="sampledemo" finished-at="2023-11-22T12:16:02 IST" duration-ms="14342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampledemo -->
+      </class> <!-- testnewxe.testautoxe2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

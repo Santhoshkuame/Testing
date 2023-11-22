@@ -1,0 +1,12 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - testnewxe.testautoxe
+    - testnewxe.testautoxe2
+
+  - name: Test
+  classes:
+    - testnewxe.testautoxe3
+
